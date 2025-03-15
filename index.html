@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrawOpposite</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>DrawOpposite</h1>
+        <p>Submit a prompt, and I'll draw it!</p>
+    </header>
+
+    <main>
+        <form id="promptForm">
+            <label for="prompt">Enter your drawing prompt:</label>
+            <textarea id="prompt" name="prompt" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="message" style="display:none;">Thank you! Your prompt has been submitted.</p>
+    </main>
+
+    <footer>
+        <a href="drawings.html">See Finished Drawings</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
